@@ -10,7 +10,7 @@ This file numbers every version of the site, from the first Astro build to what 
 
 ## Where the history comes from
 
-This public repo holds a single commit: a snapshot of **v1.0**. The day-to-day history lives in the private repo that builds the live site. The commit ranges below are short hashes from that private repo, listed so the versions can be traced. Git history before 29 March 2026 was not kept, so v1.0 is the earliest version on record.
+This public repo holds a snapshot of **v1.0**. The day-to-day history lives in the private repo that builds the live site. The commit ranges below are short hashes from that private repo, listed so the versions can be traced. Git history before 29 March 2026 was not kept, so v1.0 is the earliest version on record.
 
 ## Summary
 

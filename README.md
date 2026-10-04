@@ -61,21 +61,6 @@ No environment variables are needed. The newsletter form will not submit without
 
 The live v1 site also had a Notion-backed newsletter, a subscriber admin view, an analytics dashboard and an ImageKit image pipeline. Those stayed private.
 
-## Commit convention
-
-Every commit in this repo starts with the site version it belongs to:
-
-```
-v{major}.{minor}: what changed
-```
-
-For example `v1.0: fix broken link in footer` or `v3.1: add builds gallery page`. The rules are in [CONTRIBUTING.md](CONTRIBUTING.md). To have git fill in the format for you:
-
-```bash
-git config commit.template .gitmessage
-git config core.hooksPath .githooks   # optional: rejects commits without a version prefix
-```
-
 ## About
 
 I'm Amit Srivatsa, an AI-first content strategist based in the Netherlands, with 10+ years across Adobe, NetApp and Solid Optics. I build content systems that compound over time.
