@@ -1,0 +1,7 @@
+v1.0: 
+# Format: v{major}.{minor}: what changed
+#
+# Major = complete facelift (new look). Minor = meaningful change within a look.
+# Fixes, copy, posts and docs keep the current number.
+# This repo is a snapshot of v1.0, so most commits here start with "v1.0:".
+# See CONTRIBUTING.md and VERSIONS.md.
