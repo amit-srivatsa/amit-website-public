@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Linkedin, MapPin, ExternalLink, Download, ArrowUpRight, Share2, Briefcase, Rocket, GraduationCap, ScrollText } from 'lucide-react';
+import { Mail, Linkedin, MapPin, ExternalLink, ArrowUpRight, Share2, Briefcase, Rocket, GraduationCap, ScrollText } from 'lucide-react';
 
 interface TabItem {
   id: string;
@@ -47,14 +47,6 @@ export const CV: React.FC = () => {
     }
   };
 
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/Amit Srivatsa Gorti — Resume.pdf';
-    link.download = 'Amit Srivatsa Gorti — Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   const cardBaseStyle = 'bg-white border-black/5 shadow-sm text-gray-700 dark:bg-[#1c1c1e] dark:border-white/10 dark:shadow-black/40 dark:text-gray-200';
 
@@ -218,13 +210,6 @@ export const CV: React.FC = () => {
               title="Share"
             >
               <Share2 size={14} />
-            </button>
-            <button
-              onClick={handleDownload}
-              className="w-8 h-8 rounded-full flex items-center justify-center transition-all bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200"
-              title="Download CV"
-            >
-              <Download size={14} />
             </button>
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2 leading-tight">Amit Srivatsa Gorti</h1>
